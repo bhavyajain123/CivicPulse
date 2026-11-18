@@ -1,0 +1,1 @@
+export const COMPLAINT_CATEGORIES=['Roads','Water Supply','Electricity','Sanitation','Public Safety','Parks','Other'];export const COMPLAINT_STATUSES=['Submitted','Verified','Assigned','In Progress','Resolved','Rejected'];export const PRIORITIES=['Critical','High','Medium','Low'];

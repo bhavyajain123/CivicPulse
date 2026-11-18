@@ -1,0 +1,1 @@
+export const formatDate=(v:string)=>new Date(v).toLocaleString();export const formatId=(v:string)=>v.toUpperCase();

@@ -1,0 +1,1 @@
+export const mapService={locate:()=>new Promise<GeolocationPosition>((resolve,reject)=>navigator.geolocation?navigator.geolocation.getCurrentPosition(resolve,reject):reject(new Error('Geolocation unavailable')))};

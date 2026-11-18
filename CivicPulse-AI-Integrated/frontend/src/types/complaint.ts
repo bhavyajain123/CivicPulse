@@ -1,0 +1,1 @@
+export type ComplaintStatus='Submitted'|'Verified'|'Assigned'|'In Progress'|'Resolved'|'Rejected';export type Priority='Critical'|'High'|'Medium'|'Low';export interface Complaint{id:string;title:string;description:string;category:string;location:string;priority:Priority;status:ComplaintStatus;createdAt:string;}

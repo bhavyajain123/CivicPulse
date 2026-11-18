@@ -1,0 +1,1 @@
+export default function OfficerProfile(){return <section className="panel"><div className="eyebrow">CIVICCONNECT MODULE</div><h2>OfficerProfile</h2><p>This module is part of the CivicConnect frontend structure. Connect it to the shared services and role routes as the backend becomes available.</p></section>;}

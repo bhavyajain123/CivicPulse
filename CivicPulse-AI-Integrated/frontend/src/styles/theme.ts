@@ -1,0 +1,1 @@
+const theme={colors:{background:'#0b1220',surface:'#111c2e',primary:'#3978d8',success:'#43b7a1',danger:'#e46d65'}};export default theme;

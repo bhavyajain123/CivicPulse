@@ -1,0 +1,1 @@
+Global design system styles live in globals.css and theme.ts.

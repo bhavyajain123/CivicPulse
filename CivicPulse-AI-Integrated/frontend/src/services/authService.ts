@@ -1,0 +1,1 @@
+const KEY='civicconnect-user';export const authService={get:()=>JSON.parse(localStorage.getItem(KEY)||'null'),set:(user:any)=>localStorage.setItem(KEY,JSON.stringify(user)),clear:()=>localStorage.removeItem(KEY)};

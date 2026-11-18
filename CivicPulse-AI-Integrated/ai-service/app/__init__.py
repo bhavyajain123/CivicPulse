@@ -1,0 +1,1 @@
+"""CivicConnect AI application package."""
