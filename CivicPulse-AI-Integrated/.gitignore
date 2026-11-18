@@ -1,5 +1,44 @@
+# Dependencies
 node_modules/
-dist/
+.pnp
+.pnp.js
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment variables (secrets yahan hote hain, kabhi push mat karna)
 .env
-.DS_Store
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Vercel
+.vercel/
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Coverage / testing
+coverage/
+.pytest_cache/
